@@ -16,4 +16,10 @@ body
     font-family: Arial, sans-serif;
 }
 
+.main-navigation__mobile-button,
+.main-navigation__mobile
+{
+    display: none;
+}
+
 /*  font-family: 'Roboto', sans-serif; */
