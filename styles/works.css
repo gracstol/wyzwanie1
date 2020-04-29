@@ -1,0 +1,25 @@
+.works
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.works__image
+{
+    width: 21vw;
+    height: 21vw;
+    margin: 5px;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s opacity;
+}
+
+.works__image:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
