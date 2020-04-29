@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="/styles/services.css">
     <!-- Works css file -->
     <link rel="stylesheet" href="/styles/works.css">
+    <!-- Contact css file -->
+    <link rel="stylesheet" href="/styles/contact.css">
 
 </head>
 <body>
@@ -49,8 +51,8 @@
                         </a>
                     </li>
                     <li class="main-navigation__item">
-                        <a href="#content" class="main-navigation__link">
-                            Content
+                        <a href="#contact" class="main-navigation__link">
+                            Contact
                         </a>
                     </li>
                 </ul>
@@ -96,7 +98,7 @@
     <!-- Services section -->
     <section class="services" id="services">
         <header class="services__content"> 
-            <p class="services__p"> services </p>
+            <h2 class="services__p"> services </h2>
             <h2 class="services__title"> Best services for <span class="services__title-red"> Visual Perfection </span></h2>
             <p class="services__parapraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aspernatur
                 veritatis praesentium quaerat quasi. </p>
@@ -151,16 +153,47 @@
         <img class="works__image" src="/gallery/7.jpg" alt="obrazek">
         <img class="works__image" src="/gallery/8.jpg" alt="obrazek">
     </section>
-
-
-    
-
-
-
-
-    
-
-
+    <footer class="footer" id="contact">
+        <section class="contact">
+            <article class="contact__article">
+                <h2 class="contact__header"> Want to have a professional project? Let's talk about it. </h2>
+                <p class="contact__paragraph"> Aliquam facere quaerat harum, rerum, perspiciatis a sit odit molestiae commodi
+                    porro qui eligendi pariatur rem quasi iusto voluptas a sit odit amet, aperiam alias!
+                </p>
+                <p class="contact__paragraph"> ommodi nisi quasi perspiciatis beatae possimus architecto amet. Ipsa pariatur
+                    rem quasi iusto voluptas ad a excepturi commodi necessitatibus, aliquam! </p>
+            </article>
+            <form class="contact__form">
+                <div class="contact__form-item">
+                    <label for="name" class="contact__form-label"> Your name* </label>
+                    <input class="contact__form-input" type="text" name="name" id="name" required>
+                    
+                </div>
+                <div class="contact__form-row">
+                    <div class="contact__form-item right-margin">
+                        <label for="company" class="contact__form-label"> Company name* </label>
+                        <input class="contact__form-input" type="text" name="company" id="company" required >
+                    </div>
+                    <div class="contact__form-item left-margin">
+                        <label for="email" class="contact__form-label"> Email address* </label>
+                        <input class="contact__form-input" type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="contact__form-item">
+                    <label for="service" class="contact__form-label"> Select services* </label>
+                    <select class="contact__form-input" name="service" id="service">
+                        <option value="design" selected> Web Design </option>
+                        <option value="branding"> Branding </option>
+                    </select>
+                </div>
+                <div class="contact__form-item">
+                    <label class="contact__form-label"> Describe your project* </label>
+                    <textarea class="contact__form-textarea" required></textarea>
+                </div>
+                <input type="submit" class="contact__form-button" value="Submit">
+            </form>
+        </section>
+    </footer>
 
 </body>
 

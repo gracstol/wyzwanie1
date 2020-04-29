@@ -1,0 +1,115 @@
+.contact
+{
+    display: flex;
+    margin: 60px 0;
+    height: max-content;
+}
+
+.contact__article
+{
+    width: 50%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+.contact__header
+{
+    font-size: 60px;
+    margin: 20px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+}
+
+.contact__paragraph
+{
+    width: 70%;
+    align-self: flex-end;
+    margin: 10px 10px 0;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #a6a6a6;
+}
+
+.contact__form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    height: max-content;
+    width: 40%;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+.contact__form-item
+{
+    border: 1px solid #a6a6a6;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 8px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.contact__form-label
+{
+    border: none;
+    text-transform: uppercase;
+    color: #9a9a9a;
+    font-size: 13px;
+}
+
+.contact__form-input
+{
+    border: none;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.contact__form-input:focus
+{
+    outline: none;
+}
+
+.contact__form-row
+{
+    width: 100%;
+    display: flex;
+}
+
+.right-margin
+{
+    margin-right: 7px;
+}
+
+.left-margin{
+    margin-left: 7px;
+}
+.contact__form-company-input{
+    border: none;
+}
+
+.contact__form-textarea
+{
+    resize: vertical;
+    border: none;
+    height: 80px;
+}
+
+.contact__form-textarea:focus
+{
+    outline: none;
+}
+
+.contact__form-button
+{
+    background-color: #FB414E;
+    border: 1px solid #FB414E;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
